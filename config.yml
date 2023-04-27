@@ -17,10 +17,7 @@ menu:
       name: Tags
       url: /tags/
       weight: 30
-    - identifier: members
-      name: Members
-      url: /members/
-      weight: 40
+    
 
 params:
   profileMode:
