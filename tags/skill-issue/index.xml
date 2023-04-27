@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>skill-issue on RToSI</title>
+    <link>https://RoundTableOfSkillIssue.github.io/blog/tags/skill-issue/</link>
+    <description>Recent content in skill-issue on RToSI</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 27 Apr 2023 21:12:56 +0700</lastBuildDate><atom:link href="https://RoundTableOfSkillIssue.github.io/blog/tags/skill-issue/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test</title>
+      <link>https://RoundTableOfSkillIssue.github.io/blog/sharing/test/</link>
+      <pubDate>Thu, 27 Apr 2023 21:12:56 +0700</pubDate>
+      
+      <guid>https://RoundTableOfSkillIssue.github.io/blog/sharing/test/</guid>
+      <description>Idk some testing maybe!</description>
+    </item>
+    
+    <item>
+      <title>WU Test</title>
+      <link>https://RoundTableOfSkillIssue.github.io/blog/writeup/test/</link>
+      <pubDate>Thu, 27 Apr 2023 21:12:56 +0700</pubDate>
+      
+      <guid>https://RoundTableOfSkillIssue.github.io/blog/writeup/test/</guid>
+      <description>Idk some testing maybe!</description>
+    </item>
+    
+  </channel>
+</rss>
