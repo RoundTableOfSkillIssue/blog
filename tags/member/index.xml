@@ -5,14 +5,24 @@
     <link>https://roundtableofskillissue.github.io/blog/tags/member/</link>
     <description>Recent content in member on RToSI</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://roundtableofskillissue.github.io/blog/tags/member/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Wed, 26 Mar 2003 00:00:00 +0700</lastBuildDate><atom:link href="https://roundtableofskillissue.github.io/blog/tags/member/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lio</title>
       <link>https://roundtableofskillissue.github.io/blog/members/lio/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Mar 2003 00:00:00 +0700</pubDate>
       
       <guid>https://roundtableofskillissue.github.io/blog/members/lio/</guid>
       <description>What is known about the creature named Lio</description>
+    </item>
+    
+    <item>
+      <title>The Overseer</title>
+      <link>https://roundtableofskillissue.github.io/blog/members/admin/</link>
+      <pubDate>Wed, 01 Jan 2003 00:00:00 +0700</pubDate>
+      
+      <guid>https://roundtableofskillissue.github.io/blog/members/admin/</guid>
+      <description>Người đứng đầu Hội Bàn Tròn</description>
     </item>
     
   </channel>
