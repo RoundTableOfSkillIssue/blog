@@ -1,0 +1,48 @@
+baseURL: "https://RoundTableOfSkillIssue.github.io/blog/"
+languageCode: en-us
+title: RToSI
+theme: PaperMod
+
+menu:
+  main:
+    - identifier: sharing
+      name: Sharing
+      url: /sharing/
+      weight: 10
+    - identifier: writeups
+      name: Writeups
+      url: /writeup/
+      weight: 20
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 30
+    - identifier: members
+      name: Members
+      url: /members/
+      weight: 40
+
+params:
+  mainSections:
+  - sharing
+  - writeup
+  profileMode:
+        enabled: true
+        title: "The Round Table of Skill Issue" # optional default will be site title
+        subtitle: "Chả biết viết cái gì vô đây nữa..."
+        imageUrl: "./home/image.png" # optional
+        imageTitle: "teri teri" # optional
+        imageWidth: 120 # custom size
+        imageHeight: 120 # custom size
+        buttons:
+            - name: Đây là một chiếc nút vô dụng
+              url: "./home/"
+  socialIcons: # optional
+        - name: "github"
+          url: "<link>"
+        - name: "email"
+          url: "<link2>"
+
+taxonomies:
+  tag: tags
+  author: members
