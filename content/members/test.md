@@ -3,7 +3,7 @@ title: "Lio"
 draft: false
 toc: false
 cover:
-  images: "/members/Lio/ava.png"
+  images: "/members/ava.png"
   alt: "idk"
   caption: "Woah!"
   relative: false # To use relative path for cover image, used in hugo Page-bundles
