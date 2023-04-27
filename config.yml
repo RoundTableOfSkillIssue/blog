@@ -23,9 +23,6 @@ menu:
       weight: 40
 
 params:
-  mainSections:
-  - sharing
-  - writeup
   profileMode:
         enabled: true
         title: "The Round Table of Skill Issue" # optional default will be site title
