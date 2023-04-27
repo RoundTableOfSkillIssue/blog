@@ -17,7 +17,10 @@ menu:
       name: Tags
       url: /tags/
       weight: 30
-    
+    - identifier: member
+      name: Members
+      url: /member/
+      weight: 40
 
 params:
   profileMode:
@@ -27,7 +30,7 @@ params:
         imageUrl: "./home/image.png" # optional
         imageTitle: "teri teri" # optional
         imageWidth: 120 # custom size
-        imageHeight: 120 # custom size
+        imageHeight: 100 # custom size
         buttons:
             - name: Đây là một chiếc nút vô dụng
               url: "./home/"
