@@ -1,5 +1,5 @@
 ---
-title: "Chắc là chiếc nút kia có tác dụng thật"
+title: "Chắc là không vô dụng cho lắm"
 draft: false
 toc: false
 ---

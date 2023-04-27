@@ -29,8 +29,8 @@ params:
         subtitle: "Chả biết viết cái gì vô đây nữa..."
         imageUrl: "./home/image.png" # optional
         imageTitle: "teri teri" # optional
-        imageWidth: 120 # custom size
-        imageHeight: 100 # custom size
+        imageWidth: 240 # custom size
+        imageHeight: 200 # custom size
         buttons:
             - name: Đây là một chiếc nút vô dụng
               url: "./home/"
