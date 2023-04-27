@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>member on RToSI</title>
-    <link>https://RoundTableOfSkillIssue.github.io/blog/tags/member/</link>
+    <link>https://roundtableofskillissue.github.io/blog/tags/member/</link>
     <description>Recent content in member on RToSI</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://RoundTableOfSkillIssue.github.io/blog/tags/member/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://roundtableofskillissue.github.io/blog/tags/member/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lio</title>
-      <link>https://RoundTableOfSkillIssue.github.io/blog/members/lio/test/</link>
+      <link>https://roundtableofskillissue.github.io/blog/members/lio/test/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://RoundTableOfSkillIssue.github.io/blog/members/lio/test/</guid>
+      <guid>https://roundtableofskillissue.github.io/blog/members/lio/test/</guid>
       <description>What is known about the creature named Lio</description>
     </item>
     
