@@ -16,4 +16,6 @@ Cái đầu là Pwnable.
 
 Cái thứ 2 là Pwnhub.
 
-Cái còn lại là PwnlyFans
+Cái còn lại là PwnlyFans.
+
+Don't judge me pls!
