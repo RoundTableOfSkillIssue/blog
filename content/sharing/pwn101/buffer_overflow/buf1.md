@@ -2,7 +2,7 @@
 title: "Pwn 101: Buffer Overflow Part 1"
 date: 2023-04-30T00:00:00+07:00
 draft: false
-toc: false
+ShowToc: true
 tags:
     - pwn
     - 101
@@ -163,10 +163,16 @@ Câu trả lời chính là nó sẽ tràn xuống vùng nhớ ở dưới, khô
 
 Vậy khi này nếu như chương trình tiến hành đọc dữ liệu của biến `num` thì nó sẽ không còn mang giá trị 0 như ban đầu nữa mà lại là 0x61 (hay 0x00000061), tức bằng 97. Ta đã có thể thay đổi được giá trị của biến `num` và điều chỉnh được luồng thực thi của chương trình.
 
+```shell
+$ ./test
+aaaaaaaaaaa
+Wait... How?!
+```
+
 Nếu nhập vào nhiều ký tự hơn nữa, ta không những có thể ghi đè lên biến `num` mà còn tiếp tục ghi đè xuống được vùng nhớ ở dưới biến `num`. Nhưng vấn đề này sẽ được đè cập tới ở phần tiếp theo, trong một kỹ thuật khác bắt nguồn từ việc khai thác lỗi Buffer Overflow này.
 
 Một lưu ý nho nhỏ, là đối với các phiên bản gcc mới hơn, compiler sẽ luôn ưu tiên đặt các biến buffer ở vùng địa chỉ cao hơn các biến riêng lẻ khác (tức là nằm ở dưới trong stack) vậy nên việc ghi đè lên biến `num` như ví dụ trên sẽ không còn khả thi nữa.
 
 Trên thực tế, không chỉ mỗi hàm **gets** mà còn có nhiều những hàm khác có thể gây nên lỗi tràn bộ đệm. Và việc tràn bộ đệm này có thể giúp các attacker thay đổi được luồng thực thi của chương trình, và hơn nữa là chiếm được shell của hệ thống.
 
-<img src="shell.png" alt="clown" width="1000"/>
+<!-- ![clown](https://media.discordapp.net/attachments/950580594788687932/1102262087067127808/shell.png?width=502&height=675) -->
