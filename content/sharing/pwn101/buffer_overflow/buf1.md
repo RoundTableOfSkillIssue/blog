@@ -2,7 +2,7 @@
 title: "Pwn 101: Buffer Overflow Part 1"
 date: 2023-04-30T00:00:00+07:00
 draft: false
-toc: true
+toc: false
 tags:
     - pwn
     - 101
@@ -10,7 +10,6 @@ author:
     - Lio
 summary: "Buffer Overflow là gì? Điều gì gây nên lỗi tràn bộ đệm? Làm sao để khai thác?"
 ---
-{{< toc >}}
 
 ## Disclaimer
 
