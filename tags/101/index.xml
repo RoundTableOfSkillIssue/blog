@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Sharings on RToSI</title>
-    <link>https://roundtableofskillissue.github.io/blog/sharing/</link>
-    <description>Recent content in Sharings on RToSI</description>
+    <title>101 on RToSI</title>
+    <link>https://roundtableofskillissue.github.io/blog/tags/101/</link>
+    <description>Recent content in 101 on RToSI</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 30 Apr 2023 00:00:00 +0700</lastBuildDate><atom:link href="https://roundtableofskillissue.github.io/blog/sharing/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 30 Apr 2023 00:00:00 +0700</lastBuildDate><atom:link href="https://roundtableofskillissue.github.io/blog/tags/101/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Pwn 101: Buffer Overflow Part 1</title>
       <link>https://roundtableofskillissue.github.io/blog/sharing/pwn101/buffer_overflow/buf1/</link>
@@ -14,15 +14,6 @@
       
       <guid>https://roundtableofskillissue.github.io/blog/sharing/pwn101/buffer_overflow/buf1/</guid>
       <description>Buffer Overflow là gì? Điều gì gây nên việc tràn bộ đệm này?</description>
-    </item>
-    
-    <item>
-      <title>Nyoooooooo</title>
-      <link>https://roundtableofskillissue.github.io/blog/sharing/yikes/</link>
-      <pubDate>Thu, 27 Apr 2023 21:12:56 +0700</pubDate>
-      
-      <guid>https://roundtableofskillissue.github.io/blog/sharing/yikes/</guid>
-      <description>Idk some testing maybe!</description>
     </item>
     
   </channel>
