@@ -85,7 +85,7 @@ Vậy nên theo như các biến ta đã khai báo như trên thì vùng nhớ s
             bắt đầu của num
 ```
 
-Do đó ta có thể thấy, khác với địa chỉ bắt đầu của chuỗi `buffer` là nằm ở trên cùng và đọc dần xuống dưới cuối theo thứ tự từ trái sang phải, khi ta đọc biến `num` thì chương trình sẽ tự hiểu và đọc ngược các byte từ cuối về đầu, tức là từ trái sang phải. Đừng hỏi tôi, cái memory nó xếp như vậy tôi đâu có thiết kế mấy cái củ shit này.
+Do đó ta có thể thấy, khác với địa chỉ bắt đầu của chuỗi `buffer` là nằm ở trên cùng và đọc dần xuống dưới cuối theo thứ tự từ phải sang trái, khi ta đọc biến `num` thì chương trình sẽ tự hiểu và đọc ngược các byte từ cuối về đầu, tức là từ trái sang phải. Đừng hỏi tôi, cái memory nó xếp như vậy tôi đâu có thiết kế mấy cái củ shit này.
 
 Ông nào học môn Kiến trúc máy tính xong có khi sẽ hiểu sơ sơ cái này còn không thì tạm thời cứ cho là như vậy trước đi.
 
