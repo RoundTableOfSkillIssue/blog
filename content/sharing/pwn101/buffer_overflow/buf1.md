@@ -42,7 +42,7 @@ void main() {
 }
 ```
 
-Một đoạn code C trông có vẻ vô hại. Chương trình này khai báo một biến `num` kiểu int có giá trị bằng 0 và một biến `buffer` là dãy 10 ký tự kiểu char. Sau đó chương trình tiến hành lấy chuỗi input từ người dùng nhập vào biến ‘buffer’ và kết thúc chương trình mà không làm gì cả.
+Một đoạn code C trông có vẻ vô hại. Chương trình này khai báo một biến `num` kiểu int có giá trị bằng 0 và một biến `buffer` là dãy 10 ký tự kiểu char. Sau đó chương trình tiến hành lấy chuỗi input từ người dùng nhập vào biến `buffer` và kết thúc chương trình mà không làm gì cả.
 
 Nhưng nếu chương trình thật sự làm gì đó thì sao? Hãy modify cái chương trình này lại một xíu nhé.
 
