@@ -36,9 +36,9 @@ params:
               url: "./home/"
   socialIcons: # optional
         - name: "github"
-          url: "<link>"
+          url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
         - name: "email"
-          url: "<link2>"
+          url: "https://www.youtube.com/watch?v=fC7oUOUEEi4"
 
 taxonomies:
   tag: tags
