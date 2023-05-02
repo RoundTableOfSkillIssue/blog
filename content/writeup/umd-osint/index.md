@@ -34,7 +34,7 @@ From the description, we know that the hacker group had linked their Discord ser
 
 Examining the description of the welcome channel, we find the flag **UMDCTF{w3lc0me_t0_th3_b35t_d!sc0rd_982364}**
 
-## ICC2
+## TCC2
 
 **Description:** What is the secret page on their website?
 
@@ -64,7 +64,7 @@ Blub mentioned that **it's some kind of storage thing**. After a few attempts, w
 
 After providing all the answers, we received the flag **UMDCTF{y0u_sur3_kn0w_h0w_t0_d0_y0ur_r3s3@rch_289723}**
 
-## ICC3
+## TCC3
 
 **Description:** I'm missing contact information for one of the members. They said they were Out of Office (OOO) on vacation.
 
@@ -86,7 +86,7 @@ Could mach0's email follow this pattern as well? We assumed it is **mach0.umdctf
 
 He left his telephone number **(281) 698-0109**. Suspecting he may have left a message on his phone, we called the number and found a voicemail. We recorded it, and you can access it [here](https://drive.google.com/file/d/1G4TszPVYpxHpa1tw-QGM9-1aOkJ1fkT3/view?usp=share_link). The flag is **UMDCTF{y0u_h4v3_r3ach3d_mach0_v01cema1l_333}**
 
-## ICC4
+## TCC4
 
 **Description:** mach0 told me he has been tweeting a lot and might expose TCC secrets!
 
