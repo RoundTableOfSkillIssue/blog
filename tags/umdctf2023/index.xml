@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>UMDCTF2023 on RToSI</title>
+    <link>https://roundtableofskillissue.github.io/blog/tags/umdctf2023/</link>
+    <description>Recent content in UMDCTF2023 on RToSI</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 02 May 2023 03:50:54 +0000</lastBuildDate><atom:link href="https://roundtableofskillissue.github.io/blog/tags/umdctf2023/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>UMDCTF 2023 - TCC1-4 writeup</title>
+      <link>https://roundtableofskillissue.github.io/blog/writeup/umd-osint/</link>
+      <pubDate>Tue, 02 May 2023 03:50:54 +0000</pubDate>
+      
+      <guid>https://roundtableofskillissue.github.io/blog/writeup/umd-osint/</guid>
+      <description>An in-depth writeup on UMDCTF 2023 - TCC1-4.</description>
+    </item>
+    
+  </channel>
+</rss>
