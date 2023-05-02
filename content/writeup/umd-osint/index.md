@@ -1,7 +1,7 @@
 ---
 title: 'UMDCTF 2023 - TCC1-4 writeup'
-authors:
-  - BaoDoktah
+author:
+    - BaoDoktah
 date: '2023-05-02T03:50:54Z'
 
 # Summary. An optional shortened abstract.
