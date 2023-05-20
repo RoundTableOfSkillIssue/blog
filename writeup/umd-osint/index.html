@@ -226,7 +226,7 @@
 <p><strong>Description:</strong> I found this hacker group and they&rsquo;re acting kinda strange. Let&rsquo;s do some diggin&rsquo;. Maybe we can find their discord server? I thought they linked it on their website before&hellip;</p>
 <p><strong>Category:</strong> OSINT</p>
 <p>From the description, we know that the hacker group had linked their Discord server before. By pasting the website URL <strong><a href="https://tcc.lol">https://tcc.lol</a></strong> into the <a href="https://web.archive.org">Wayback Machine</a>, we successfully gained access to the deleted link of the Discord server!</p>
-<p><img loading="lazy" src="https://cdn.discordapp.com/attachments/950580594788687932/1102989260564467732/discord.png?width=1000" alt="Discord"  />
+<p><img loading="lazy" src="discord.png" alt="Discord"  />
 </p>
 <p>Examining the description of the welcome channel, we find the flag <strong>UMDCTF{w3lc0me_t0_th3_b35t_d!sc0rd_982364}</strong></p>
 <h2 id="tcc2">TCC2<a hidden class="anchor" aria-hidden="true" href="#tcc2">#</a></h2>
@@ -234,17 +234,17 @@
 <p>The secret page contains four questions. We must answer all of them correctly to access the flag.</p>
 <p>The first question: <strong>What place did TCC get in their most recent CTF competition?</strong> After researching their team, we found them on <a href="https://ctftime.org/team/223777">ctftime</a>. They only participated in <strong>DawgCTF 2023</strong> and ranked <strong>145th</strong>.</p>
 <p>The second question: <strong>Which company is p1ku currently working for?</strong> We searched for p1ku&rsquo;s email on Google and found his resume (his email can be found on the contact page if you didn&rsquo;t know).</p>
-<p><img loading="lazy" src="https://cdn.discordapp.com/attachments/950580594788687932/1102989817203142796/gg.png?width=1000" alt="Google"  />
+<p><img loading="lazy" src="gg.png" alt="Google"  />
 </p>
 <p>In the <strong>Professional Experience</strong> section, we learned that he works at <strong>Leidos</strong>.</p>
-<p><img loading="lazy" src="https://cdn.discordapp.com/attachments/950580594788687932/1102990474895175822/resume.png?width=1000" alt="Resume"  />
+<p><img loading="lazy" src="resume.png" alt="Resume"  />
 </p>
 <p>The third question: <strong>What is bree&rsquo;s favorite CTF category?</strong> In his profile on the members&rsquo; page, there is a hashtag <strong>#miscgang</strong>. We can assume the answer is <strong>misc</strong>.</p>
 <p>The last question: <strong>What is the brand name of the gift that blub is going to buy?</strong> We found a thread titled <strong>Gift</strong> in their Discord server.</p>
-<p><img loading="lazy" src="https://cdn.discordapp.com/attachments/950580594788687932/1102990666956542062/gift.png?width=1000" alt="Gift"  />
+<p><img loading="lazy" src="gift.png" alt="Gift"  />
 </p>
 <p>From the Amazon link and p1ku&rsquo;s statement that <strong>there has to be a list they made</strong>, we can guess that the couple may have created an <a href="https://www.amazon.com/wedding/search">Amazon wedding registry</a>. Searching for <strong>Bulberina</strong> - the name blub mentioned - we found their wedding registry (confirmed by the <strong>Hasbulla cutout</strong> on their list).</p>
-<p><img loading="lazy" src="https://cdn.discordapp.com/attachments/950580594788687932/1102990813337755700/wedding.png?width=1000" alt="Wedding"  />
+<p><img loading="lazy" src="wedding.png" alt="Wedding"  />
 </p>
 <p>Blub mentioned that <strong>it&rsquo;s some kind of storage thing</strong>. After a few attempts, we discovered the correct <a href="https://www.amazon.com/dp/B07SQFYSFT?ref_=wedding_guest_view&amp;colid=EV0PKO2KIUYU&amp;coliid=I1BIM7273X6K3M&amp;th=1">gift</a>. The answer is <strong>Shazo</strong>.</p>
 <p>After providing all the answers, we received the flag <strong>UMDCTF{y0u_sur3_kn0w_h0w_t0_d0_y0ur_r3s3@rch_289723}</strong></p>
@@ -257,13 +257,13 @@
 <p><strong>blub:  blub.umdctf2023@gmail.com</strong></p>
 <p><strong>titos:  titos.umdctf2023@proton.me</strong></p>
 <p>Could mach0&rsquo;s email follow this pattern as well? We assumed it is <strong><a href="mailto:mach0.umdctf2023@gmail.com">mach0.umdctf2023@gmail.com</a></strong>. Based on the <strong>Out of Office (OOO)</strong> hint, we tried sending an email to him. Surprisingly, we received a response.</p>
-<p><img loading="lazy" src="https://cdn.discordapp.com/attachments/950580594788687932/1102990996444303460/rep.png?width=1000" alt="Reply"  />
+<p><img loading="lazy" src="rep.png" alt="Reply"  />
 </p>
 <p>He left his telephone number <strong>(281) 698-0109</strong>. Suspecting he may have left a message on his phone, we called the number and found a voicemail. We recorded it, and you can access it <a href="https://drive.google.com/file/d/1G4TszPVYpxHpa1tw-QGM9-1aOkJ1fkT3/view?usp=share_link">here</a>. The flag is <strong>UMDCTF{y0u_h4v3_r3ach3d_mach0_v01cema1l_333}</strong></p>
 <h2 id="tcc4">TCC4<a hidden class="anchor" aria-hidden="true" href="#tcc4">#</a></h2>
 <p><strong>Description:</strong> mach0 told me he has been tweeting a lot and might expose TCC secrets!</p>
 <p>We noticed that mach0 always ends his sentences with <strong>- macho</strong> in Discord.</p>
-<p><img loading="lazy" src="https://cdn.discordapp.com/attachments/950580594788687932/1102992769166868500/mach0.png?width=1000" alt="Macho"  />
+<p><img loading="lazy" src="mach0.png" alt="Macho"  />
 </p>
 <p>We speculated he could do the same in his tweets. Searching the query <strong>&quot;- macho&quot; lang:en until:2023-05-01 since:2023-04-01</strong> and sifting through thousands of tweets, we finally found his account <a href="https://twitter.com/beefed_out">here</a>. We saw a <a href="https://pastebin.com/th4KWMup">pastebin</a> in one of his tweets. We clicked on the link and obtained the flag: <strong>UMDCTF{tw1tt3r_adv4nc3d_s3arch_y0ink}</strong></p>
 <h2 id="conclusion">Conclusion<a hidden class="anchor" aria-hidden="true" href="#conclusion">#</a></h2>
