@@ -30,7 +30,7 @@ ShowToc: true
 
 From the description, we know that the hacker group had linked their Discord server before. By pasting the website URL **https://tcc.lol** into the [Wayback Machine](https://web.archive.org), we successfully gained access to the deleted link of the Discord server!
 
-![Discord](https://cdn.discordapp.com/attachments/950580594788687932/1102989260564467732/discord.png?width=1000)
+![Discord](discord.png)
 
 Examining the description of the welcome channel, we find the flag **UMDCTF{w3lc0me_t0_th3_b35t_d!sc0rd_982364}**
 
@@ -44,21 +44,21 @@ The first question: **What place did TCC get in their most recent CTF competitio
 
 The second question: **Which company is p1ku currently working for?** We searched for p1ku's email on Google and found his resume (his email can be found on the contact page if you didn't know).
 
-![Google](https://cdn.discordapp.com/attachments/950580594788687932/1102989817203142796/gg.png?width=1000)
+![Google](gg.png)
 
 In the **Professional Experience** section, we learned that he works at **Leidos**.
 
-![Resume](https://cdn.discordapp.com/attachments/950580594788687932/1102990474895175822/resume.png?width=1000)
+![Resume](resume.png)
 
 The third question: **What is bree's favorite CTF category?** In his profile on the members' page, there is a hashtag **#miscgang**. We can assume the answer is **misc**.
 
 The last question: **What is the brand name of the gift that blub is going to buy?** We found a thread titled **Gift** in their Discord server.
 
-![Gift](https://cdn.discordapp.com/attachments/950580594788687932/1102990666956542062/gift.png?width=1000)
+![Gift](gift.png)
 
 From the Amazon link and p1ku's statement that **there has to be a list they made**, we can guess that the couple may have created an [Amazon wedding registry](https://www.amazon.com/wedding/search). Searching for **Bulberina** - the name blub mentioned - we found their wedding registry (confirmed by the **Hasbulla cutout** on their list).
 
-![Wedding](https://cdn.discordapp.com/attachments/950580594788687932/1102990813337755700/wedding.png?width=1000)
+![Wedding](wedding.png)
 
 Blub mentioned that **it's some kind of storage thing**. After a few attempts, we discovered the correct [gift](https://www.amazon.com/dp/B07SQFYSFT?ref_=wedding_guest_view&colid=EV0PKO2KIUYU&coliid=I1BIM7273X6K3M&th=1). The answer is **Shazo**.
 
@@ -82,7 +82,7 @@ Upon researching the term **Out of Office (OOO)**, we learned that it is an auto
 
 Could mach0's email follow this pattern as well? We assumed it is **mach0.umdctf2023@gmail.com**. Based on the **Out of Office (OOO)** hint, we tried sending an email to him. Surprisingly, we received a response.
 
-![Reply](https://cdn.discordapp.com/attachments/950580594788687932/1102990996444303460/rep.png?width=1000)
+![Reply](rep.png)
 
 He left his telephone number **(281) 698-0109**. Suspecting he may have left a message on his phone, we called the number and found a voicemail. We recorded it, and you can access it [here](https://drive.google.com/file/d/1G4TszPVYpxHpa1tw-QGM9-1aOkJ1fkT3/view?usp=share_link). The flag is **UMDCTF{y0u_h4v3_r3ach3d_mach0_v01cema1l_333}**
 
@@ -92,7 +92,7 @@ He left his telephone number **(281) 698-0109**. Suspecting he may have left a m
 
 We noticed that mach0 always ends his sentences with **- macho** in Discord.
 
-![Macho](https://cdn.discordapp.com/attachments/950580594788687932/1102992769166868500/mach0.png?width=1000)
+![Macho](mach0.png)
 
 We speculated he could do the same in his tweets. Searching the query **"- macho" lang:en until:2023-05-01 since:2023-04-01** and sifting through thousands of tweets, we finally found his account [here](https://twitter.com/beefed_out). We saw a [pastebin](https://pastebin.com/th4KWMup) in one of his tweets. We clicked on the link and obtained the flag: **UMDCTF{tw1tt3r_adv4nc3d_s3arch_y0ink}**
 
